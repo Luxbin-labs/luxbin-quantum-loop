@@ -124,3 +124,6 @@ MIT
 ## Author
 
 Nichole Christie — [@nichechristie](https://github.com/nichechristie)
+
+- Discord: `Nichebiche77`
+- ENS: `luxbin.base.eth` / `Nichebiche.eth`
