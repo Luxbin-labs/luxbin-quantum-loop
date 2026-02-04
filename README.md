@@ -1,6 +1,14 @@
+<p align="center">
+  <img src="https://img.shields.io/badge/🔮_QUBITS-445_OPERATIONAL-blueviolet?style=for-the-badge" alt="Qubits"/>
+  <img src="https://img.shields.io/badge/⚛️_IBM-QUANTUM-00d4aa?style=for-the-badge" alt="IBM Quantum"/>
+  <img src="https://img.shields.io/badge/🌈_TRIPLE-ENCODING-ff6b00?style=for-the-badge" alt="Triple Encoding"/>
+</p>
+
 # LUXBIN Quantum Echo Loop
 
 **Multi-backend quantum message relay using triple-encoded qubit states on IBM quantum hardware.**
+
+> 🛰️ **NEW: [LUXBIN Quantum Grid](https://github.com/nichechristie/luxbin-quantum-grid)** — Quantum-secured smart grid infrastructure designed for Starlink mesh networks. See the full ecosystem below.
 
 Three IBM quantum computers (ibm_fez, ibm_torino, ibm_marrakesh) communicate by passing encoded messages through a continuous loop. Each character is encoded across the full Bloch sphere using three physical channels mapped to the three rotation axes:
 
@@ -116,6 +124,30 @@ luxbin_quantum_consensus.py — Consensus vote module
 luxbin_quantum_pingpong.py  — Ping-pong module
 sound_to_light.py           — Sound frequency ↔ light wavelength conversion
 ```
+
+---
+
+## 🌐 LUXBIN Ecosystem
+
+This repo is part of the **LUXBIN Quantum Internet** ecosystem — a suite of tools building the infrastructure for quantum-secured global communication.
+
+| Repository | Description | Status |
+|:-----------|:------------|:------:|
+| 🛰️ **[luxbin-quantum-grid](https://github.com/nichechristie/luxbin-quantum-grid)** | Quantum-secured smart grid for Starlink mesh networks | [![Active](https://img.shields.io/badge/🔥-Active-green)](https://github.com/nichechristie/luxbin-quantum-grid) |
+| 🔮 **[Luxbin-Quantum-internet](https://github.com/nichechristie/Luxbin-Quantum-internet)** | Full quantum internet protocol stack + Academy | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18198505.svg)](https://doi.org/10.5281/zenodo.18198505) |
+| 🌈 **[LUXBIN_Light_Language-](https://github.com/nichechristie/LUXBIN_Light_Language-)** | Universal photonic encoding (400-700nm) | [![Published](https://img.shields.io/badge/📄-Published-blue)](https://github.com/nichechristie/LUXBIN_Light_Language-) |
+| 🔄 **luxbin-quantum-loop** *(this repo)* | Multi-backend quantum relay on IBM hardware | [![Live](https://img.shields.io/badge/⚡-Live-yellow)](https://github.com/nichechristie/luxbin-quantum-loop) |
+
+### 🤝 Partnership Opportunities
+
+LUXBIN technology is designed for integration with global infrastructure providers. If you represent:
+- **Satellite networks** (Starlink, OneWeb, Kuiper)
+- **Energy utilities** (smart grid modernization)
+- **Quantum hardware vendors** (IBM, IonQ, Quandela)
+
+📧 Contact: [@nichechristie](https://github.com/nichechristie) | ENS: `luxbin.base.eth`
+
+---
 
 ## License
 
